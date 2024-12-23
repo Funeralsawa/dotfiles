@@ -116,6 +116,8 @@ if ! shopt -oq posix; then
   fi
 fi
 
-export PATH=/home/acs/.homework:$PATH
 alias tmux='tmux -u'
-export PATH=/home/acs/homework/lesson_7/homework_0:$PATH
+export XDG_CONFIG_HOME=$HOME/dotfiles/config
+export XDG_DATA_HOME=$HOME/dotfiles/data
+export XDG_CACHE_HOME=$HOME/dotfiles/cache
+

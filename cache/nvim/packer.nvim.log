@@ -1,0 +1,25 @@
+[ERROR Mon 23 Dec 2024 07:29:04 PM CST 1.7191130057055e+16] .../site/pack/packer/start/packer.nvim/lua/packer/async.lua:20: Error in coroutine: vim/_editor.lua:0: nvim_exec2()../home/acs/dotfiles/data/nvim/site/pack/packer/start/nvim-ts-rainbow/plugin/rainbow.vim, line 1: Vim(lua):E5108: Error executing lua ...m/site/pack/packer/start/nvim-ts-rainbow/lua/rainbow.lua:17: module 'nvim-treesitter.query' not found:
+	no field package.preload['nvim-treesitter.query']
+	no file './nvim-treesitter/query.lua'
+	no file '/home/acs/neovim/.deps/usr/share/luajit-2.1/nvim-treesitter/query.lua'
+	no file '/usr/local/share/lua/5.1/nvim-treesitter/query.lua'
+	no file '/usr/local/share/lua/5.1/nvim-treesitter/query/init.lua'
+	no file '/home/acs/neovim/.deps/usr/share/lua/5.1/nvim-treesitter/query.lua'
+	no file '/home/acs/neovim/.deps/usr/share/lua/5.1/nvim-treesitter/query/init.lua'
+	no file './nvim-treesitter/query.so'
+	no file '/usr/local/lib/lua/5.1/nvim-treesitter/query.so'
+	no file '/home/acs/neovim/.deps/usr/lib/lua/5.1/nvim-treesitter/query.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file './nvim-treesitter.so'
+	no file '/usr/local/lib/lua/5.1/nvim-treesitter.so'
+	no file '/home/acs/neovim/.deps/usr/lib/lua/5.1/nvim-treesitter.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+	[C]: in function 'require'
+	...m/site/pack/packer/start/nvim-ts-rainbow/lua/rainbow.lua:17: in main chunk
+	[C]: in function 'require'
+	[string ":lua"]:1: in main chunk
+	[C]: in function 'resume'
+	.../site/pack/packer/start/packer.nvim/lua/packer/async.lua:12: in function <.../site/pack/packer/start/packer.nvim/lua/packer/async.lua:11>
+[WARN  Mon 23 Dec 2024 08:35:41 PM CST 1.7195127814919e+16] .../site/pack/packer/start/packer.nvim/lua/packer/clean.lua:79: Cleaning cancelled!
+[WARN  Mon 23 Dec 2024 08:36:47 PM CST 1.7195193654504e+16] .../site/pack/packer/start/packer.nvim/lua/packer/clean.lua:79: Cleaning cancelled!
