@@ -10,7 +10,7 @@ apt install curl
 #创建临时文件夹
 mkdir test
 cd test
-git clone git@github.com:neovim/neovim.git
+git clone https://github.com/neovim/neovim.git
 make CMAKE_BUILD_TYPE=RelWithDebInfo
 make install
 
