@@ -1,11 +1,12 @@
 #! /bin/bash
 
 #安装依赖
-apt update
-apt install build-essential
-apt install git
-apt install wget
-apt install curl
+sudo apt update
+sudo apt install build-essential
+sudo apt install git
+sudo apt install wget
+sudo apt install curl
+sudo apt install cmake
 
 #创建临时文件夹
 mkdir test
